@@ -20,24 +20,22 @@
 	</div>
 </footer><!-- #colophon -->
 </div>
-<div class="Footer_footer__images__zqW7F">
+<div class="subfooter">
 	<div class="container">
 		<ul>
-			<li class="Footer_footer__images-item__c9pc2"><img
-					src="<?php echo get_parent_theme_file_uri() . '/img/gamblinghelponline_41f25d1b2d.svg' ?>" alt="3"
+			<li><img src="<?php echo get_parent_theme_file_uri() . '/img/gamblinghelponline_41f25d1b2d.svg' ?>" alt="3"
 					loading="lazy"></li>
-			<li class="Footer_footer__images-item__c9pc2"><img
-					src="<?php echo get_parent_theme_file_uri() . '/img/gamstop_c99b2eda73.svg' ?>" alt="4"
+			<li><img src="<?php echo get_parent_theme_file_uri() . '/img/gamstop_c99b2eda73.svg' ?>" alt="4"
 					loading="lazy">
 			</li>
 		</ul>
-		<div class="Footer_footer__text__xZ69H">
-			<p>This is not an official website of A Big Candy brand. You must be at least <strong>18 years old</strong>
-				to
-				play.<br><br>Sister Site:&nbsp;<a href="https://skycrowncasino.vip/" title="SkyCrown Casino"
-					target="_self">SkyCrown Casino</a>. Fantastic bonuses and pokies with friendly terms.<a
-					href="https://skycrowncasino.vip/" title="SkyCrown Casino" target="_self">&nbsp;</a></p>
-		</div>
+	</div>
+	<div class="copyright">
+		<p>This is not an official website of A Big Candy brand. You must be at least <strong>18 years old</strong>
+			to
+			play.<br><br>Sister Site:&nbsp;<a href="https://skycrowncasino.vip/" title="SkyCrown Casino"
+				target="_self">SkyCrown Casino</a>. Fantastic bonuses and pokies with friendly terms.<a
+				href="https://skycrowncasino.vip/" title="SkyCrown Casino" target="_self">&nbsp;</a></p>
 	</div>
 
 </div>
