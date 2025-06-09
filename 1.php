@@ -2,13 +2,20 @@
 
 get_theme_file_uri() 
 
-//can you do me a favor
+//can you try again, please 
+//before was not successful
 
-//i have a task to do new design, but it's a test work, and 50% of guarantee will be senseless, so i don't want to spent time in vain
+i prepared some documents
 
-could you do me css for this page as design is different in task
+//3.html - just i cleaned via js code, removed no needful attributes in images 
 
-https://abigcandy-au.com/en/
+//screenshot.png, layout how should be(current page) - most thing that will take time for me is to do blocks with images 
 
-if possible zip it with images, css in scss with variable as i told design will be different so i could easy change it
-i need content area only, so exlude footer and header, just content area
+// screenshot-new.png how should be it's in Wordpress in dark green
+
+rename please all that bem classes to normal styling 
+
+do scss named _content.scss with varibles, for i easy could change colors 
+
+do not forget mobile view ie top banner, 6 image boxes and block with 'Recent Wins' should be stacked in mobiles
+
