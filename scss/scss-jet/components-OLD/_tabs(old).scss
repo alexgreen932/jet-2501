@@ -1,0 +1,121 @@
+.j-tabs-full {
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 0;
+    z-index: 99999;
+
+    &.j_icons {
+        li {
+            padding: 6px 0;
+
+            i {
+                color: #0a4988 !important;
+            }
+        }
+    }
+
+    li {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        line-height: 30px;
+        cursor: pointer;
+        padding: 0;
+        border: 1px solid transparent;
+        border-bottom-color: rgba(0, 0, 0, .6);
+
+        &.j-active {
+            border-color: rgba(0, 0, 0, .6);
+            border-bottom-color: transparent;
+            -webkit-border-radius: 7px 7px 0px 0px;
+            -moz-border-radius: 7px 7px 0px 0px;
+            border-radius: 7px 7px 0px 0px;
+        }
+    }
+
+
+
+}
+
+
+.j-tabs-full li{
+    &:first-child {
+        border-left-width: 0;
+        border-left-color: transparent;
+        -webkit-border-radius: 0px 4px 0px 0px;
+        -moz-border-radius: 0px 4px 0px 0px;
+        border-radius: 0px 4px 0px 0px;
+    }
+    &:last-child {
+        border-right-width: 0;
+        border-right-color: transparent;
+        -webkit-border-radius: 4px 0px 0px 0px;
+        -moz-border-radius: 4px 0px 0px 0px;
+        border-radius: 4px 0px 0px 0px;
+    }
+
+}
+.j-tabs-full.tabs-sub-dark {
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background: #808da8;
+    padding: 5px 5px 0;
+    -webkit-border-radius: 4px 4px 0px 0px;
+    -moz-border-radius: 4px 4px 0px 0px;
+    border-radius: 4px 4px 0px 0px;
+
+    li {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        line-height: 24px;
+        cursor: pointer;
+        padding: 0;
+        border-width: 0;
+        -webkit-border-radius: 4px 4px 0px 0px;
+        -moz-border-radius: 4px 4px 0px 0px;
+        border-radius: 4px 4px 0px 0px;
+        color: #fff;
+        &.j-active {
+            background: #fff;
+            color: #444;
+        }
+    }
+
+
+
+}
+
+.j-tabs-content {
+    margin: 10px 0;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    li {
+        h3 {
+            padding-bottom: 7px;
+            display: flex;
+            justify-content: space-between;
+
+            i {
+                font-size: 16px;
+            }
+
+        }
+    }
+}
+
+//??
+.j-tab-tip {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    line-height: 30px;
+    padding: 0 7px;
+    background: #fff;
+}

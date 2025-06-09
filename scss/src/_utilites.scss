@@ -1,0 +1,20 @@
+﻿//toggle note for customizer 
+
+.toggle-note {
+    background: #f0f7ff;
+    border: 1px solid #9bcaf8;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 0 10px;
+
+    label{
+        padding: 5px;
+        cursor: pointer;
+    }
+    div{
+        display: none;
+    border-top: 1px solid #9bcaf8;
+        padding: 5px ;
+    }
+}

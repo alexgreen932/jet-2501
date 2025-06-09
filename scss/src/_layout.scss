@@ -1,0 +1,51 @@
+﻿$sidebar: 250px;
+
+$header: 60px;
+
+$bg:#054145;
+$footer:#042d2f;
+$col: #e7fcfd;
+
+
+body {
+    background-color: $bg;
+    margin: 0;
+}
+
+#jet-header{
+    .container{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+}
+
+
+#jet-footer{
+    background: $footer;
+    padding: 30px 0;
+    .container{
+        height: 116px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Footer_footer__images-item__c9pc2{
+        padding: 10px 30px;
+    }
+    ul{
+        display: flex;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        gap: 30px;
+        img{
+            width: 150px;
+        }
+    }
+    // .abc-logo{
+    //     img{
+    //         // width: ;
+    //     }
+    // }
+}

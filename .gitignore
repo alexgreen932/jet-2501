@@ -1,0 +1,25 @@
+/vendor/
+/node_modules/
+.idea
+dist
+.DS_Store
+.env
+
+
+
+/dev/
+/DOCS/
+/BACKUP/
+/SOURCES/
+0.js
+1.js
+1.css
+1.html
+# 1.php
+dev.php
+composer.json
+composer.lock
+composer.phar
+
+
+
