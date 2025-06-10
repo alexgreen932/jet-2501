@@ -46,6 +46,7 @@ include get_template_directory() . '/inc/menus.php';
 			// get_template_part('elements/modal_search');
 			?>
 			<div class="right-hand">
+				<span class="dashicons dashicons-admin-users isMobile"></span>
 				<button class="prim">Log In</button>
 				<button class="second">Sign In</button>
 				<div class="drop-menu"><span class="dashicons dashicons-menu"></span><ul><?php echo wp_kses_post( $drop_menu ) ?></ul></div>

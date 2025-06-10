@@ -1,0 +1,36 @@
+
+
+//what do i do wrong 
+//_mobiles.scss
+//imported last in style.scss
+
+@media (max-width: 390px) {
+    .jet-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 40px;
+    }
+
+    body #jet-header .container,
+    body .container {
+        width: 100% !important;
+        padding: 1rem;
+        margin: 0;
+    }
+
+    .table-wrapper {
+        table {
+            font-size: 0.75rem;
+        }
+    }
+}
+
+//why it fallow simple rule in _layout.scss 
+
+.container {
+    width: 1200px;
+    padding: 0 35px;
+    margin: 0 auto;
+}
