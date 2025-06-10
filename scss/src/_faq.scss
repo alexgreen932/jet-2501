@@ -1,8 +1,8 @@
 // Variables
 $color-text: #fff;
-$color-question: #ff2e63;
+$color-question: #eca21a;
 
-$faq-bg: #1e1e2f;
+$faq-bg: $ac-darken;
 $faq-hover: #1e2f22;
 
 $color-answer: #aaa;
@@ -51,13 +51,17 @@ $color-answer: #aaa;
             display: block;
             width: 100%;
             padding: 1rem;
-            font-size: 1.2rem;
+            font-size: 1rem;
             font-weight: 700;
             color: $color-question;
+            text-transform: none;
             cursor: pointer;
             // transition: background 0.3s ease;
             position: relative;
             padding-right: 30px;
+            &:hover{
+                background: transparent!important;
+            }
 
             &::after {
                 position: absolute;

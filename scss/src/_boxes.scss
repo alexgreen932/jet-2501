@@ -10,7 +10,8 @@ ul.image-grid {
   margin: 0;
 
   li {
-    flex: 1 1 calc(16.6% - $spacing);
+    // flex: 1 1 calc(16.6% - $spacing);
+    width: 16.6%;
     position: relative;
     border-radius: 0.5rem;
     overflow: hidden;
@@ -18,6 +19,7 @@ ul.image-grid {
     background: #000;
 
     img {
+    // aspect-ratio: 3 / 4;
       position: absolute;
       top: 0; left: 0; width: 100%; height: 100%;
       object-fit: cover;
@@ -38,7 +40,7 @@ ul.image-grid {
       justify-content: center;
       align-items: center;
       text-align: center;
-      gap: 0.5rem;
+      gap: 1rem;
       padding: 10px!important;
       z-index: 2;
       color: white;
@@ -64,11 +66,11 @@ ul.image-grid {
       button {
         padding: 0;
         width: 90%;
-        line-height: 20px;
+        line-height: 30px;
         text-align: center;
         color: white;
         border: none;
-        border-radius: 10px;
+        border-radius: 15px;
         letter-spacing: 0.8px;
         cursor: pointer;
       }
