@@ -1,7 +1,15 @@
-i'm not sure you can do it, but if you can, please do the this 
+WP theme 
 
-1. here logo, it's a bit corrupt at top can you complete two 3d '2'
-2. remove background, so output is png with transparent background  
-3. keep one image size as iz, 2nd height 60px 
+something is wrong with my theme 
 
-just i have no installed photoshop on my linux, and installation via wine will take a lot of time
+ i have two logos 
+, and i cant find a reason  
+theme very simple 
+
+only index.php header and footer
+
+//can you chech, maybe you can find what is wrong
+
+//header.php
+//index.php
+//footer.php

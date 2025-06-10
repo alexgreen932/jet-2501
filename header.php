@@ -8,9 +8,6 @@
  *
  * @package Jet_2500
  */
-
-//dynamic classes if necessary then
-$layouts = get_classes(array('header_width' => 'w-container', 'header_justify' => 'jc-b', 'header_align' => 'ai-c', 'header_p' => 'pv-1'));
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -43,7 +40,7 @@ $layouts = get_classes(array('header_width' => 'w-container', 'header_justify' =
 		<header id="jet-header" class="jet-header">
 		<div class="container">
 			<?php
-			//get_template_part('elements/logo');
+			get_template_part('elements/logo');
 			// get_template_part('elements/modal_search');
 			?>
 	</div>
