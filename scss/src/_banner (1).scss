@@ -1,0 +1,159 @@
+.slider-box {
+    min-height: 300px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+
+    .img {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-image: url('http://dev.site/wp-content/uploads/2025/06/slider.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        z-index: 2;
+    }
+}
+
+//mobile view here as well
+
+.slider-box {
+    min-height: 300px;
+
+    .Slider_swiper-wrapper__snayi {
+        height: auto;
+    }
+
+    .Slider_full__7_41c {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .Slider_width__Ylf58 {
+        max-width: var(--slider-width);
+        margin: 0 auto;
+    }
+
+    img {
+        background-image: ('http://dev.site/wp-content/uploads/2025/06/slider.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .slider-box {
+        max-height: 352px;
+    }
+
+    .Slider_slider__item-overlay-image__CxedE {
+        height: 100%;
+        margin: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 55vw;
+        max-height: 300px;
+
+        img {
+            height: 100%;
+            max-height: 300px;
+        }
+    }
+
+    .Slider_slider__item-container__FQ_wR {
+        >img {
+            width: 100%;
+        }
+    }
+
+    .Slider_slider__content-title__KKWAn {
+        font-size: 1.75rem;
+        background-image: none;
+    }
+
+    .Slider_slider__content-subtitle__0WUkd {
+        font-size: 1rem;
+    }
+
+    .Slider_slider__content-left__5O_U5 {
+        align-items: center;
+        padding: 30px 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .Layout_container__7UE5U {
+        padding: 0 16px;
+    }
+}
+
+.slider-box {
+    min-height: 300px;
+
+    .Slider_swiper-wrapper__snayi {
+        height: auto;
+    }
+
+    .Slider_full__7_41c {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .Slider_width__Ylf58 {
+        max-width: var(--slider-width);
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .slider-box {
+        max-height: 352px;
+    }
+
+    .Slider_slider__item-overlay-image__CxedE {
+        height: 100%;
+        margin: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 55vw;
+        max-height: 300px;
+
+        img {
+            height: 100%;
+            max-height: 300px;
+        }
+    }
+
+    .Slider_slider__item-container__FQ_wR {
+        >img {
+            width: 100%;
+        }
+    }
+
+    .Slider_slider__content-title__KKWAn {
+        font-size: 1.75rem;
+        background-image: none;
+    }
+
+    .Slider_slider__content-subtitle__0WUkd {
+        font-size: 1rem;
+    }
+
+    .Slider_slider__content-left__5O_U5 {
+        align-items: center;
+        padding: 30px 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .Layout_container__7UE5U {
+        padding: 0 16px;
+    }
+}

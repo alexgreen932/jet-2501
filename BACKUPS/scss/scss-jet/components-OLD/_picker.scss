@@ -1,0 +1,84 @@
+.drop-field {
+  position: relative;
+  z-index: 999999;
+
+  .e-select {
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    height: 30px;
+    line-height: 30px;
+    box-shadow: 0 0 0 transparent;
+    border-radius: 4px;
+    border: 1px solid #8c8f94;
+    background-color: #fff;
+    color: #2c3338;
+
+    span {
+      height: inherit;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+    .keep-open {
+      height: 24px!important;
+      line-height: 24px;
+      padding: 0 4px;
+      border-radius: 4px;
+      background: #e6e6e6;
+      color:#575656;
+      font-size: 0.8rem;
+      &:hover {
+        background: #ccc;
+      }
+      &.e-active {
+        background: #007CBA;
+        color:#fff;
+      }
+    
+    }
+
+  }
+
+}
+
+.picker-drop {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row !important;
+
+  div {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    // gap:2px;
+  }
+
+  &.col {
+    background: #fff;
+    div {
+      -webkit-box-shadow: inset 1px 1px 0px 0px #000000;
+      box-shadow: inset 1px 1px 0px 0px #000000;
+      &[class^='tx-white'], &[class$='l-4'], &[class$='l-5']{
+        background: #000;
+      }
+    }
+  }
+
+  &.small-right {
+    min-height: 300px;
+    width: 244px;
+    right: 0;
+    left: auto;
+
+    div {
+      width: 22px;
+      height: 22px;
+    }
+  }
+}

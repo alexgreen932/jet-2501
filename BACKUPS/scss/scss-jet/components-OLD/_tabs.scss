@@ -1,0 +1,135 @@
+.j-tabs-box {
+    //for all
+    display: flex;
+    width: 100%;
+
+    .j-tabs {
+        display: flex;
+        // gap: 20px;
+    }
+
+    .j-tabs-content {
+        .j-tab-content-item {
+            display: none;
+            padding: 20px 0;
+
+            &.active {
+                display: block;
+            }
+        }
+    }
+
+    $b: rgba(0, 0, 0, .4);
+
+    &.horizontal-top {
+        flex-direction: column;
+
+        .j-tabs {
+            border-bottom: 1px solid $b;
+
+            a {
+                background: rgba(0, 0, 0, .1);
+                border-top: 1px solid $b;
+                border-left: 1px solid $b;
+
+                &:first-child {
+                    border-radius: 5px 0 0 0;
+                }
+
+                &:last-child {
+                    border-radius: 0 5px 0 0;
+                    border-right: 1px solid $b;
+                }
+
+                &:hover {
+                    background: rgba(0, 0, 0, .2);
+                }
+
+                &.el-active,
+                &.active {
+                    background-color: #fff;
+                    margin-bottom: -1px;
+                }
+
+                &:focus {
+                    outline: none !important;
+                    box-shadow: none !important;
+                }
+
+            }
+
+        }
+
+        .j-tabs-content {
+            // border-top: 1px solid $b;
+        }
+    }
+
+    //for styles
+    &.vertical-left,
+    &.vertical-right {
+        flex-direction: row;
+
+        .j-tabs {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+
+            a {
+                min-width: 180px;
+            }
+        }
+    }
+
+    &.vertical-left.menu-style {
+        .j-tabs {
+            border-right: 1px solid $b;
+
+            a,
+            a:first-child,
+            a:last-child {
+                border-width: 0;
+                background: none;
+            }
+
+            a.active {
+                border: 1px solid $b;
+                border-right: 1px solid #fff;
+                margin-right: -1px;
+                background: #fff;
+                border-radius: 5px 0px 0px 4px;
+            }
+        }
+
+        .j-tabs-content {
+            padding-left: 1rem;
+        }
+    }
+
+
+
+
+    &.horizontal-bottom {
+        flex-direction: column-reverse;
+    }
+
+    .j-tabs a {
+        padding: 0 15px;
+        line-height: 30px;
+
+    }
+
+    &.el-boxed .j-tabs a {
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 3px;
+
+        &:hover {
+            background: rgba(0, 0, 0, .2);
+        }
+
+        &.el-active {
+            background: rgba(0, 0, 0, .1);
+        }
+
+    }
+}

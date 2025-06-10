@@ -1,0 +1,87 @@
+.slider-box {
+  position: relative;
+  width: 100%;
+//   max-width: 1200px;
+  height: 300px;
+  background: black;
+//   border-radius: 0.5rem;
+  overflow: hidden;
+  margin: 0 auto;
+
+  .img {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: url("http://dev.site/wp-content/uploads/2025/06/slider.png");
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    z-index: 1;
+  }
+
+  .de-content {
+    position: absolute;
+    top: 0; left: 0; bottom: 0;
+    right: 0;
+    // width: 100%;
+    // width: 30%;
+    // background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    .de-box {
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      width: 30%;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      .title {
+        // font-size: 1.5rem!important;
+        font-size: 34px!important;
+        font-weight: 700;
+        // margin-bottom: 0.75rem;
+        display: block;
+      }
+
+      .btn {
+        padding: 0 1.25rem;
+        line-height: 34px;
+        width: 100%;
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 17px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  &:hover .img {
+    transform: scale(1.05);
+    opacity: 0.6;
+  }
+}
+
+// Responsive (stack content on top of image)
+@media (max-width: 400px) {
+  .slider-box {
+    height: auto;
+
+    .de-content {
+    //   position: static;
+    //   width: 100%;
+    //   background: rgba(0, 0, 0, 0.7);
+      padding: 1rem;
+    }
+
+    .img {
+      position: relative;
+      height: 200px;
+    }
+  }
+}

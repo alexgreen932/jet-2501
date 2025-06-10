@@ -1,0 +1,130 @@
+.jt-imagebox,  .j-imagebox{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    .j-box-image{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        // height: 100%;
+        z-index: 2;
+    }
+
+    .j-img-bg {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        translate: none;
+        rotate: none;
+        scale: none;
+        will-change: transform;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        z-index: 2;
+    }
+
+    img {
+        position: absolute;
+        translate: none;
+        rotate: none;
+        scale: none;
+        will-change: transform;
+        z-index: 1;
+    }
+
+    .jc-filter {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, .2);
+        z-index: 3;
+    }
+
+    .j-container,
+    .j-fluid {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 4;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.j-parallax {
+    position: relative;
+    overflow: hidden;
+
+    img {
+        position: absolute;
+        // top: 50%;
+        // margin-top: -50%;
+        // translate: none;
+        // rotate: none;
+        // scale: none;
+        // transform: translate(0px, 0px);
+        // will-change: transform;
+        translate: none;
+        rotate: none;
+        scale: none;
+        will-change: transform;
+        z-index: 1;
+    }
+
+    .jc-filter {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, .2);
+        z-index: 3;
+    }
+
+    .el-inner {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .el-content {
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+
+            &.dark {
+                background: rgba(0, 0, 0, .5);
+                padding: 20px;
+                border-radius: 10px;
+            }
+
+            &.light {
+                background: rgba(255, 255, 255, .5);
+                color: #000;
+                padding: 20px;
+                border-radius: 10px;
+            }
+
+            h3 {
+                color: inherit;
+            }
+        }
+    }
+}
