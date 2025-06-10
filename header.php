@@ -20,7 +20,7 @@ include get_template_directory() . '/inc/menus.php';
 
 	<?php wp_head(); ?>
 	<!-- //TODO DEV PHP LIVE RELOAD WATCHER - REMOVE ON PROD -->
-	<script>
+	<!-- <script>
 		setInterval(() => {
 			fetch('/reload.txt')
 				.then(r => r.text())
@@ -29,7 +29,7 @@ include get_template_directory() . '/inc/menus.php';
 					if (window.lastReloadTime != time) location.reload();
 				});
 		}, 1000);
-	</script>
+	</script> -->
 
 </head>
 

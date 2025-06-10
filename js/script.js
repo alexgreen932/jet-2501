@@ -1,4 +1,20 @@
 
+//mobile login box
+let mobileIcon = document.querySelector('.isMobile');
+let isActive = false;
+mobileIcon.addEventListener('click', () => {
+    let loginBox = document.querySelector('.right-hand');
+    if ( !isActive ) {
+        isActive = true;
+        loginBox.classList.add('isActive');
+    } else {
+        isActive = false;
+        loginBox.classList.remove('isActive');
+    }
+
+})
+
+
 //faq 
 document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.f-question').forEach(btn => {

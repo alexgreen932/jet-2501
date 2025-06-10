@@ -1,36 +1,998 @@
 
 
-//what do i do wrong 
-//_mobiles.scss
-//imported last in style.scss
+i did almoust all for mobile view, but for some reasons it's a bit wider than screen(mobile view 430px) abot 30px
 
-@media (max-width: 390px) {
-    .jet-header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 40px;
-    }
+i can't understand what does it, i even tried to remove all elements one by one(trying to find out what elemet is wider), but was not successful 
 
-    body #jet-header .container,
-    body .container {
-        width: 100% !important;
-        padding: 1rem;
-        margin: 0;
-    }
+can you take a look, maybe you can find out 
 
-    .table-wrapper {
-        table {
-            font-size: 0.75rem;
-        }
-    }
+//here is copliled css, if necessary i can provide rendered html or mhtml 
+
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+/* line 10, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_layout.scss */
+html,
+body {
+  background: #0A636F;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
 }
 
-//why it fallow simple rule in _layout.scss 
+/* line 24, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_layout.scss */
+html ul li,
+body ul li {
+  list-style: none;
+}
 
+/* line 30, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_layout.scss */
+html a,
+body a {
+  color: #28A9AF;
+}
+
+/* line 36, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_layout.scss */
+.page {
+  margin-top: 60px;
+}
+
+/* line 41, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_layout.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+div,
+label {
+  box-sizing: border-box;
+  color: inherit;
+}
+
+/* line 64, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_layout.scss */
 .container {
-    width: 1200px;
-    padding: 0 35px;
-    margin: 0 auto;
+  width: 1200px;
+  padding: 0 35px;
+  margin: 0 auto;
 }
+
+/* line 70, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_layout.scss */
+#section-1,
+#section-2,
+#section-99 {
+  padding-top: 1.5rem;
+}
+
+/* line 76, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_layout.scss */
+h3 {
+  font-size: 1.5rem;
+  color: #f8ee94;
+  margin: 1.5rem 0;
+}
+
+/* line 85, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_layout.scss */
+#jet-footer {
+  background: #042d2f;
+  padding: 30px 0;
+  color: inherit;
+}
+
+/* line 90, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_layout.scss */
+#jet-footer .container {
+  color: inherit;
+  height: 116px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 100, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_layout.scss */
+.subfooter {
+  padding: 10px 30px;
+  color: inherit;
+}
+
+/* line 104, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_layout.scss */
+.subfooter ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* line 111, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_layout.scss */
+.subfooter ul li {
+  display: flex;
+  align-items: center;
+}
+
+/* line 114, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_layout.scss */
+.subfooter ul li img {
+  width: 150px;
+}
+
+/* line 124, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_layout.scss */
+.copyright {
+  color: inherit;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* line 132, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_layout.scss */
+button {
+  transition: all ease 0.3s;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+/* line 139, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_layout.scss */
+button:hover {
+  background: #2ec554 !important;
+  color: #07500a !important;
+}
+
+/* line 145, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_layout.scss */
+.g-1 {
+  display: flex;
+  gap: 1rem;
+}
+
+/* line 149, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_layout.scss */
+.g-1 .w-3-5 {
+  width: 60%;
+}
+
+/* line 153, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_layout.scss */
+.g-1 .w-2-5 {
+  width: 40%;
+}
+
+/* line 1, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_header.scss */
+#jet-header {
+  background: #054145;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  z-index: 99999;
+}
+
+/* line 10, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_header.scss */
+#jet-header .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 35px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 19, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_header.scss */
+#jet-header .site-logo img {
+  height: 60px;
+}
+
+/* line 25, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_header.scss */
+#jet-header .right-hand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* line 32, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_header.scss */
+#jet-header button {
+  line-height: 32px;
+  border-width: 0;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+}
+
+/* line 1, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_banner.scss */
+.slider-box {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+/* line 11, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_banner.scss */
+.slider-box .img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("http://dev.site/wp-content/uploads/2025/06/slider.png");
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  z-index: 1;
+}
+
+/* line 21, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_banner.scss */
+.slider-box .de-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+/* line 33, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_banner.scss */
+.slider-box .de-content .de-box {
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  width: 30%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* line 43, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_banner.scss */
+.slider-box .de-content .de-box .title {
+  font-size: 34px !important;
+  font-weight: 700;
+  display: block;
+}
+
+/* line 51, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_banner.scss */
+.slider-box .de-content .de-box .btn {
+  padding: 0 1.25rem;
+  line-height: 34px;
+  width: 100%;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 17px;
+  cursor: pointer;
+}
+
+/* line 64, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_banner.scss */
+.slider-box:hover .img {
+  transform: scale(1.05);
+  opacity: 0.6;
+}
+
+@media (max-width: 400px) {
+  /* line 72, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_banner.scss */
+  .slider-box {
+    height: auto;
+  }
+  /* line 75, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_banner.scss */
+  .slider-box .de-content {
+    padding: 1rem;
+  }
+  /* line 82, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_banner.scss */
+  .slider-box .img {
+    position: relative;
+    height: 200px;
+  }
+}
+
+/* line 4, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_boxes.scss */
+ul.image-grid {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 12, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_boxes.scss */
+ul.image-grid li {
+  width: 16.6%;
+  position: relative;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  aspect-ratio: 3 / 4;
+  background: #000;
+}
+
+/* line 21, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_boxes.scss */
+ul.image-grid li img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.25rem;
+  transition: all 0.5s ease;
+  z-index: 1;
+}
+
+/* line 31, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_boxes.scss */
+ul.image-grid li div {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  visibility: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 10px !important;
+  z-index: 2;
+  color: white;
+  padding: 1rem;
+  transition: all 0.5s ease;
+}
+
+/* line 50, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_boxes.scss */
+ul.image-grid li div span {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+}
+
+/* line 57, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_boxes.scss */
+ul.image-grid li div .j-play {
+  background: #e20774;
+}
+
+/* line 61, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_boxes.scss */
+ul.image-grid li div .j-demo {
+  background: #f0d01c;
+  color: #000;
+}
+
+/* line 66, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_boxes.scss */
+ul.image-grid li div button {
+  padding: 0;
+  width: 90%;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+}
+
+/* line 80, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_boxes.scss */
+ul.image-grid li:hover img {
+  transform: scale(1.1);
+  opacity: 0.3;
+}
+
+/* line 85, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_boxes.scss */
+ul.image-grid li:hover div {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  /* line 96, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_boxes.scss */
+  ul.image-grid li {
+    flex: 1 1 100%;
+  }
+}
+
+/* line 6, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_big-box.scss */
+.bb-card {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 2rem;
+  border-radius: 1rem;
+  background: #054145;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* line 18, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_big-box.scss */
+.bb-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 23, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_big-box.scss */
+.bb-header .bb-title {
+  font-size: 2rem;
+  color: #e20774;
+  font-weight: bold;
+}
+
+/* line 29, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_big-box.scss */
+.bb-header .bb-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  border: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+/* line 37, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_big-box.scss */
+.bb-header .bb-btn.bb-btn-secondary {
+  background: #e20774;
+  color: #fff;
+}
+
+/* line 44, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_big-box.scss */
+.bb-jackpots {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 51, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_big-box.scss */
+.bb-jackpots li {
+  flex: 1;
+  background: #0A636F;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* line 60, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_big-box.scss */
+.bb-jackpots li img {
+  width: 64px;
+  height: 64px;
+}
+
+/* line 65, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_big-box.scss */
+.bb-jackpots li .bb-tier {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 68, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_big-box.scss */
+.bb-jackpots li .bb-tier .bb-label {
+  font-size: 0.85rem;
+  color: #bbb;
+  text-transform: uppercase;
+}
+
+/* line 73, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_big-box.scss */
+.bb-jackpots li .bb-tier .bb-amount {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffd700;
+}
+
+/* line 82, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_big-box.scss */
+.bb-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+/* line 88, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_big-box.scss */
+.bb-col {
+  background: #0A636F;
+  border-radius: 0.75rem;
+  padding: 1rem;
+}
+
+/* line 93, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_big-box.scss */
+.bb-col .bb-subtitle {
+  font-size: 1.25rem;
+  color: #e20774;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+
+/* line 101, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_big-box.scss */
+.bb-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 106, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_big-box.scss */
+.bb-col ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #333;
+}
+
+/* line 113, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_big-box.scss */
+.bb-col ul li img {
+  width: 40px;
+  height: 40px;
+}
+
+/* line 118, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_big-box.scss */
+.bb-col ul li .bb-info {
+  flex: 1;
+  margin: 0 1rem;
+}
+
+/* line 121, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_big-box.scss */
+.bb-col ul li .bb-info .bb-user {
+  display: block;
+  font-weight: bold;
+}
+
+/* line 125, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_big-box.scss */
+.bb-col ul li .bb-info .bb-time {
+  font-size: 0.75rem;
+  color: #fff;
+}
+
+/* line 131, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_big-box.scss */
+.bb-col ul li .bb-amount {
+  font-weight: bold;
+  color: #ffd700;
+}
+
+@media (max-width: 768px) {
+  /* line 141, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_big-box.scss */
+  .bb-jackpots {
+    flex-direction: column;
+  }
+  /* line 145, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_big-box.scss */
+  .bb-columns {
+    grid-template-columns: 1fr;
+  }
+  /* line 149, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_big-box.scss */
+  .bb-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
+
+/* line 13, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_tables.scss */
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 2rem;
+}
+
+/* line 17, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_tables.scss */
+.table-wrapper table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 4px !important;
+  overflow: hidden;
+  background-color: #fff;
+  color: #444;
+  font-size: 0.875rem;
+}
+
+/* line 27, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_tables.scss */
+.table-wrapper table thead {
+  background-color: #F04D47;
+}
+
+/* line 30, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_tables.scss */
+.table-wrapper table thead th {
+  padding: 0.75rem;
+  text-align: left;
+  border: 1px solid #d3d3d3;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* line 37, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_tables.scss */
+.table-wrapper table thead th:first-child {
+  border-top-left-radius: 4px;
+}
+
+/* line 41, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_tables.scss */
+.table-wrapper table thead th:last-child {
+  border-top-right-radius: 4px;
+}
+
+/* line 48, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_tables.scss */
+.table-wrapper table tbody tr {
+  border-bottom: 1px solid #d3d3d3;
+}
+
+/* line 51, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_tables.scss */
+.table-wrapper table tbody tr:hover {
+  background-color: #eee;
+}
+
+/* line 56, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_tables.scss */
+.table-wrapper table tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 4px;
+}
+
+/* line 60, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_tables.scss */
+.table-wrapper table tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 4px;
+}
+
+/* line 66, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_tables.scss */
+.table-wrapper table tbody td {
+  padding: 0.75rem;
+  border: 1px solid #d3d3d3;
+  vertical-align: top;
+}
+
+/* line 10, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_faq.scss */
+.f-faq {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* line 15, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_faq.scss */
+.f-faq .f-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #fff;
+}
+
+/* line 22, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_faq.scss */
+.f-faq .f-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  /* line 22, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_faq.scss */
+  .f-faq .f-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* line 34, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_faq.scss */
+.f-faq .f-item {
+  background: #054145;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: background 0.3s ease;
+}
+
+/* line 40, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_faq.scss */
+.f-faq .f-item:hover {
+  background: #1e2f22;
+  color: #fff;
+}
+
+/* line 45, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_faq.scss */
+.f-faq .f-item .f-question {
+  background-color: inherit;
+  border-image-width: 0;
+  border-width: 0;
+  text-align-last: left;
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #eca21a;
+  text-transform: none;
+  cursor: pointer;
+  position: relative;
+  padding-right: 30px;
+}
+
+/* line 62, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_faq.scss */
+.f-faq .f-item .f-question:hover {
+  background: transparent !important;
+}
+
+/* line 66, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_faq.scss */
+.f-faq .f-item .f-question::after {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  content: '+';
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+/* line 77, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_faq.scss */
+.f-faq .f-item .f-question.open::after {
+  content: '×';
+  transform: rotate(180deg);
+}
+
+/* line 85, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_faq.scss */
+.f-faq .f-item .f-answer {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  padding: 0 1rem;
+}
+
+/* line 92, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_faq.scss */
+.f-faq .f-item .f-answer.open {
+  max-height: 300px;
+  opacity: 1;
+  padding-bottom: 1rem;
+}
+
+/* line 98, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_faq.scss */
+.f-faq .f-item .f-answer p {
+  margin: 1rem 0 0;
+  color: #aaa;
+}
+
+/* line 1, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_grid.scss */
+.g-1 {
+  display: flex;
+  gap: 1rem;
+}
+
+/* line 5, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_grid.scss */
+.g-1 .w-3-5 {
+  width: 60%;
+}
+
+/* line 9, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_grid.scss */
+.g-1 .w-2-5 {
+  width: 40%;
+}
+
+/* line 14, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_grid.scss */
+.j-ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* line 20, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_grid.scss */
+.j-ul .de-boxes {
+  width: 49%;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  background: #054145;
+}
+
+/* line 27, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_grid.scss */
+.j-ul .de-boxes p {
+  margin-top: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+/* line 32, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_grid.scss */
+.j-ul .de-boxes ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* line 39, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_grid.scss */
+.j-ul .de-boxes ul li span {
+  color: #f5f4b4;
+  margin-right: 1rem;
+}
+
+/* line 2, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_menus.scss */
+.drop-menu {
+  position: relative;
+}
+
+/* line 5, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_menus.scss */
+.drop-menu ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 220px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  background: #054145;
+  transition: all ease 0.5s;
+  gap: 0.5rem;
+}
+
+/* line 19, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_menus.scss */
+.drop-menu ul a {
+  text-decoration: none;
+  color: #fff;
+  transition: all ease 0.5s;
+}
+
+/* line 24, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_menus.scss */
+.drop-menu ul a:hover {
+  color: #0fe48b;
+}
+
+/* line 32, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_menus.scss */
+.drop-menu:hover ul {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* line 43, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_menus.scss */
+.scroll-menu {
+  position: fixed;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  z-index: 1000;
+}
+
+/* line 54, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_menus.scss */
+.scroll-menu li a {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: #999;
+  position: relative;
+}
+
+/* line 63, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_menus.scss */
+.scroll-menu li a:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  right: 120%;
+  background: #000;
+  color: #fff;
+  padding: 4px 8px;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  border-radius: 4px;
+}
+
+/* line 1, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_utilites.scss */
+button {
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 0 1.2rem;
+}
+
+/* line 8, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_utilites.scss */
+button.prim {
+  background: #2EB155;
+}
+
+/* line 11, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_utilites.scss */
+button.second {
+  background: #185B62;
+}
+
+/* line 1, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_mobiles.scss */
+.isMobile {
+  display: none;
+}
+
+@media (max-width: 481px) {
+  /* line 6, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_mobiles.scss */
+  .isMobile {
+    display: block;
+  }
+  /* line 9, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_mobiles.scss */
+  body div {
+    box-sizing: border-box;
+  }
+  /* line 13, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_mobiles.scss */
+  .right-hand button {
+    display: none;
+  }
+  /* line 17, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_mobiles.scss */
+  body .jet-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  /* line 29, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_mobiles.scss */
+  body #jet-header .container,
+  body #jet-footer .container,
+  body .container {
+    width: 100% !important;
+    padding: 0 1rem;
+    margin: 0;
+    box-sizing: border-box !important;
+  }
+  /* line 40, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_mobiles.scss */
+  body .slider-box .de-content .de-box {
+    width: 100%;
+  }
+  /* line 46, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_mobiles.scss */
+  body .image-grid {
+    flex-direction: column;
+  }
+  /* line 49, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_mobiles.scss */
+  body .image-grid li {
+    width: 40%;
+    width: 100%;
+  }
+  /* line 57, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_mobiles.scss */
+  #section-11 .g-1 {
+    flex-direction: column;
+  }
+  /* line 59, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_mobiles.scss */
+  #section-11 .g-1 .w-3-5,
+  #section-11 .g-1 .w-2-5 {
+    width: 100%;
+  }
+  /* line 65, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_mobiles.scss */
+  .j-ul {
+    flex-direction: column;
+  }
+  /* line 67, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_mobiles.scss */
+  .j-ul .de-boxes {
+    width: 100%;
+  }
+  /* line 73, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_mobiles.scss */
+  .subfooter ul {
+    flex-direction: column;
+  }
+  /* line 81, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_mobiles.scss */
+  .table-wrapper table {
+    font-size: 0.75rem;
+  }
+  /* line 86, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_mobiles.scss */
+  .right-hand {
+    transition: all ease 0.5s;
+  }
+  /* line 88, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_mobiles.scss */
+  .right-hand.isActive {
+    position: fixed;
+    top: 80px;
+    left: 1rem;
+    right: 1rem;
+    background: #185B62;
+    background: #999;
+    padding: 1rem;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  /* line 100, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_mobiles.scss */
+  .right-hand.isActive button {
+    display: block;
+  }
+  /* line 103, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_mobiles.scss */
+  .right-hand.isActive .dashicons-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  /* line 113, ../../../../opt/lampp/htdocs/dev.site/wp-content/themes/jet-2501/scss/src/_mobiles.scss */
+  .table-wrapper table {
+    font-size: 0.75rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

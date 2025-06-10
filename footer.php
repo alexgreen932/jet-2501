@@ -18,8 +18,8 @@ include get_template_directory() . '/inc/menus.php';
 		?>
 
 	</div>
-</footer><!-- #colophon -->
-</div>
+</footer>
+
 <div class="subfooter">
 	<div class="container">
 		<ul>
@@ -39,8 +39,8 @@ include get_template_directory() . '/inc/menus.php';
 	</div>
 
 </div>
-<!-- todo -->
-<!-- <ul class="scroll-menu"><?php //echo wp_kses_post( $scroll_menu ) ?></ul> -->
+</div>
+
 
 
 <?php wp_footer(); ?>
