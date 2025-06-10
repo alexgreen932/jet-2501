@@ -1,0 +1,83 @@
+// Variables
+$color-text: #fff;
+$color-question: #ff2e63;
+$color-bg: #1e1e2f;
+$color-answer: #aaa;
+$color-hover: #ff5c8a;
+
+.f-faq {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: auto;
+
+  .f-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: $color-text;
+  }
+
+  .f-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+
+    @media (min-width: 768px) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .f-item {
+    background: $color-bg;
+    border-radius: 0.5rem;
+    overflow: hidden;
+
+    .f-question {
+      all: unset;
+      display: block;
+      width: 100%;
+      padding: 1rem;
+      font-weight: bold;
+      color: $color-question;
+      cursor: pointer;
+      transition: background 0.3s ease;
+
+      &::after {
+        content: '+';
+        float: right;
+        transition: transform 0.3s;
+      }
+
+      &.open::after {
+        content: '×';
+        transform: rotate(180deg);
+      }
+
+      &:hover {
+        background: $color-hover;
+        color: #fff;
+      }
+    }
+
+    .f-answer {
+      max-height: 0;
+      opacity: 0;
+      overflow: hidden;
+      transition: all 0.3s ease;
+      padding: 0 1rem;
+
+      &.open {
+        max-height: 300px;
+        opacity: 1;
+        padding-bottom: 1rem;
+      }
+
+      p {
+        margin: 1rem 0 0;
+        color: $color-answer;
+      }
+    }
+  }
+}

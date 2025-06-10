@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/jet.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body inmaintabuse="1">
+
+<div class="w-container">
+ 
+<section class="f-faq" itemscope itemtype="https://schema.org/FAQPage">
+  <h2 id="faqs" class="f-title">FAQ</h2>
+  <ul class="f-list">
+    <li class="f-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+      <button class="f-question" itemprop="name">What is the welcome bonus for new players at A Big Candy Casino?</button>
+      <div class="f-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <p itemprop="text">A Big Candy Casino rolls out the red carpet for its newcomers with a lavish welcome offer. When you make your first deposit, you are eligible for a 270% bonus along with a $25 Free Chip to kick-start your gaming adventure.</p>
+      </div>
+    </li>
+    <li class="f-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+      <button class="f-question" itemprop="name">Is there a deadline to claim the welcome bonus after I sign up?</button>
+      <div class="f-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <p itemprop="text">There is no specific deadline to claim the welcome bonus at A Big Candy Casino. You can take your time and claim it once you’re ready to deposit.</p>
+      </div>
+    </li>
+    <li class="f-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+      <button class="f-question" itemprop="name">How much can I potentially win from the welcome bonus?</button>
+      <div class="f-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <p itemprop="text">You can win up to $15,000 from gameplay using your welcome bonus funds at A Big Candy Casino.</p>
+      </div>
+    </li>
+    <li class="f-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+      <button class="f-question" itemprop="name">Are there any limitations on the maximum bonus amount I can receive from the welcome offer?</button>
+      <div class="f-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <p itemprop="text">No, the 270% welcome bonus doesn’t have a fixed cap. The bonus amount is based on your first deposit size.</p>
+      </div>
+    </li>
+    <li class="f-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+      <button class="f-question" itemprop="name">What are the wagering requirements for the welcome bonus at A Big Candy Casino?</button>
+      <div class="f-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <p itemprop="text">The bonus comes with a 30x wagering requirement, meaning you must wager 30 times the bonus amount before withdrawing winnings.</p>
+      </div>
+    </li>
+    <li class="f-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+      <button class="f-question" itemprop="name">Can I use the welcome bonus on all games at A Big Candy Casino?</button>
+      <div class="f-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <p itemprop="text">The $25 Free Chip is usually valid on slots and some table games. Check the terms for excluded games and contribution rates.</p>
+      </div>
+    </li>
+  </ul>
+</section>
+
+
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.f-question').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.f-question').forEach(q => q !== btn && q.classList.remove('open'));
+        document.querySelectorAll('.f-answer').forEach(a => a !== btn.nextElementSibling && a.classList.remove('open'));
+
+        btn.classList.toggle('open');
+        btn.nextElementSibling.classList.toggle('open');
+      });
+    });
+  });
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
