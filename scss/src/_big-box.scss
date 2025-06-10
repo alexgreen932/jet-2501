@@ -1,0 +1,149 @@
+.bb-card {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 2rem;
+  border-radius: 1rem;
+  background: #14161c;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.bb-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .bb-title {
+    font-size: 2rem;
+    color: $color-accent;
+    font-weight: bold;
+  }
+
+  .bb-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    cursor: pointer;
+    &.bb-btn-secondary {
+      background: $color-accent;
+      color: #fff;
+    }
+  }
+}
+
+.bb-jackpots {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    flex: 1;
+    background: #1d1f27;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    img {
+      width: 64px;
+      height: 64px;
+    }
+
+    .bb-tier {
+      display: flex;
+      flex-direction: column;
+      .bb-label {
+        font-size: 0.85rem;
+        color: #bbb;
+        text-transform: uppercase;
+      }
+      .bb-amount {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #ffd700;
+      }
+    }
+  }
+}
+
+.bb-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.bb-col {
+  background: #1d1f27;
+  border-radius: 0.75rem;
+  padding: 1rem;
+
+  .bb-subtitle {
+    font-size: 1.25rem;
+    color: $color-accent;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+    display: block;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #333;
+
+      img {
+        width: 40px;
+        height: 40px;
+      }
+
+      .bb-info {
+        flex: 1;
+        margin: 0 1rem;
+        .bb-user {
+          display: block;
+          font-weight: bold;
+        }
+        .bb-time {
+          font-size: 0.75rem;
+          color: #888;
+        }
+      }
+
+      .bb-amount {
+        font-weight: bold;
+        color: #ffd700;
+      }
+    }
+  }
+}
+
+// Mobile stacking
+@media (max-width: 768px) {
+  .bb-jackpots {
+    flex-direction: column;
+  }
+
+  .bb-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .bb-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}

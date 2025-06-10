@@ -1,11 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
 
-last thing i need your help, the rest is easy 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/jet.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-screenshot.png how should be, in mobile view, just all boxes stacked
-
-their code is terrible in my view, so better simplify please, at least rename classes to logical names with prefix bb-(to avoid conflicts - means big-box)
-
-//html 
+<body inmaintabuse="1">
 
     <div class="w-container">
         <div class="Section_card__RUXBp"
@@ -127,134 +131,15 @@ their code is terrible in my view, so better simplify please, at least rename cl
         </div>
     </div>
 
-//css what i found but could miss anything
-
-.Section_card__RUXBp {
-    width: 100%;
-    border-radius: 1rem;
-    background: var(--backgroundSections);
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem;
-    margin-bottom: 24px
-}
-.Section_header__RVjJ5 {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 1.5rem 1.5rem 0
-}
-
-.Section_header__RVjJ5 .Section_left__VhLzc {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    row-gap: 1rem
-}
-
-@media screen and (max-width:570px) {
-    .Section_header__RVjJ5 .Section_left__VhLzc {
-        max-width: 50%
-    }
-}
-
-.Section_header__title__8WGk1 {
-    font-size: 2rem;
-    line-height: 125%;
-    color: var(--headingColor);
-    display: flex;
-    -moz-column-gap: 12px;
-    column-gap: 12px;
-    align-items: center
-}
 
 
-.Section_header__RVjJ5 .Section_right__waONr {
-    display: flex;
-    align-items: stretch
-}
-
-.Button_btn__R8YYU {
-    box-sizing: border-box;
-    cursor: pointer;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    border: none;
-    font-size: .875rem;
-    line-height: 170%;
-    font-weight: 700;
-    letter-spacing: .06em;
-    padding: .5rem 1rem;
-    border-radius: 2rem
-}
-
-@media screen and (max-width:570px) {
-    .Button_btn__R8YYU {
-        font-size: .75rem;
-        min-height: 40px;
-        padding: 5px 25px
-    }
-}
-
-.Button_btn__R8YYU.Button_primary__RWocB {
-    background-clip: padding-box, border-box;
-    background-color: transparent;
-    background-color: initial;
-    background-origin: padding-box, border-box;
-    background-position: 0 0, 0 0;
-    background-size: 100% 200%, 100% 100%;
-    transition: background 225ms ease-in-out
-}
-
-.Button_btn__R8YYU.Button_secondary__X4hrj {
-    color: #fff;
-    transition: background .3s ease-in-out
-}
-
-.Section_content__r7OAb {
-    padding: 0 0 1.5rem;
-    background: rgba(0, 10, 18, .2);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative
-}
-@media screen and (max-width:570px) {
-    .Section_content__r7OAb {
-        justify-content: center
-    }
-}
 
 
-.Jackpot_end-jackpots__P7sNN {
-    display: grid;
-    justify-content: center;
-    grid-column-gap: 24px;
-    -moz-column-gap: 24px;
-    column-gap: 24px;
-    padding: 1.5rem 0 0;
-    grid-template-columns: 1fr 1fr
-}
-
-@media screen and (max-width:570px) {
-    .Jackpot_end-jackpots__P7sNN {
-        grid-template-columns: none;
-        row-gap: 1rem
-    }
-}
 
 
-.Jackpot_jackpot__title__rmTtx {
-    font-size: 1.25rem;
-    line-height: 1.5rem;
-    font-weight: 700;
-    text-transform: none;
-    color: var(--primaryColor)
-}
 
+
+
+</body>
+
+</html>
