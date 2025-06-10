@@ -15,13 +15,19 @@ if ( ! defined( '_S_VERSION' ) ) {
 define( 'CSS', get_template_directory_uri() . '/css/' );
 define( 'JS', get_template_directory_uri() . '/js/' );
 
+
+
 require_once get_template_directory() . '/inc/dev.php';
 require_once get_template_directory() . '/inc/helpers.php';
+
+
 
 jet_autoloader('elements');
 jet_autoloader('classes', 'class');
 //class for customizer, without initializing 
 //  require_once get_template_directory() . '/inc/customizer/JetToggleControl.php';
+
+
 
 //disable admin bar for better look 
 add_filter('show_admin_bar', '__return_false');
@@ -159,6 +165,8 @@ function jet_widgets_init() {
 	);
 }
 add_action( 'widgets_init', 'jet_widgets_init' );
+
+
 
 /**
  * Main front helpers

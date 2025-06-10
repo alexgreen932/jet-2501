@@ -1,0 +1,40 @@
+﻿#jet-header {
+    background: $ac-darken;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: $header;
+    z-index: 99999;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 35px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .site-logo {
+        img {
+            height: 60px;
+        }
+
+    }
+
+    .right-hand {
+
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    button {
+        line-height: 32px;
+        // padding: 0 1rem;
+        border-width: 0;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        border-radius: 16px;
+    }
+}

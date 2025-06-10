@@ -1,10 +1,14 @@
-﻿.j-ul, .g-1{
+﻿button{
+    font-size: 0.9rem;
     display: flex;
-    gap: 1rem;
-    .w-3-5{
-        width: 60%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 0 1.2rem;
+    &.prim{
+        background: $but;
     }
-    .w-2-5{
-        width: 40%;
+    &.second{
+        background: $ac-lighten;
     }
 }

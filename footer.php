@@ -8,7 +8,7 @@
  *
  * @package Jet_2500
  */
-
+include get_template_directory() . '/inc/menus.php';
 ?>
 
 <footer id="jet-footer" class="site-footer  <?php echo esc_attr($style) ?>">
@@ -39,8 +39,8 @@
 	</div>
 
 </div>
-
-<div class="jet-preloader"></div>
+<!-- todo -->
+<!-- <ul class="scroll-menu"><?php //echo wp_kses_post( $scroll_menu ) ?></ul> -->
 
 
 <?php wp_footer(); ?>

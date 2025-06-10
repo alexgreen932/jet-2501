@@ -8,6 +8,7 @@
  *
  * @package Jet_2500
  */
+include get_template_directory() . '/inc/menus.php';
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -40,8 +41,14 @@
 		<header id="jet-header" class="jet-header">
 		<div class="container">
 			<?php
-			get_template_part('elements/logo');
+			 echo '<a href="' . get_site_url() . '" class="site-logo"> <img src="' . get_parent_theme_file_uri() . '/img/logo.png' . '" alt="Site Logo" />  </a>';
+			// get_template_part('elements/logo');
 			// get_template_part('elements/modal_search');
 			?>
+			<div class="right-hand">
+				<button class="prim">Log In</button>
+				<button class="second">Sign In</button>
+				<div class="drop-menu"><span class="dashicons dashicons-menu"></span><ul><?php echo wp_kses_post( $drop_menu ) ?></ul></div>
+			</div>
 	</div>
 	</header>
