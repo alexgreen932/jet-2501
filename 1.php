@@ -1,260 +1,192 @@
+continue this chat https://chatgpt.com/c/6846fd35-6714-8011-941e-50c9510e27ea
 
-last thing i need your help, the rest is easy 
+i reloaded page by error and chat stacked
+can you continue, sorry
 
-screenshot.png how should be, in mobile view, just all boxes stacked
+//couple of tables more
 
-their code is terrible in my view, so better simplify please, at least rename classes to logical names with prefix bb-(to avoid conflicts - means big-box)
+//html table 1
 
-//html 
-
-    <div class="w-container">
-        <div class="Section_card__RUXBp"
-            style="background: linear-gradient(rgb(21, 24, 31) 100%, rgb(183, 72, 240) 100%);">
-            <div class="Section_header__RVjJ5">
-                <div class="Section_left__VhLzc"><span class="Section_header__title__8WGk1">Recent Wins</span></div>
-                <div class="Section_right__waONr"><button
-                        class="Button_btn__R8YYU Button_secondary__X4hrj secondary-0-2-32">JOIN NOW</button></div>
-            </div>
-            <div>
-                <ul class="Jackpot_total-jackpot__LNd3V">
-                    <li>
-                        <div class="Jackpot_logo__zMpLL"><img alt="test" loading="lazy" width="64" height="64"
-                                decoding="async" data-nimg="1"
-                                srcset="/_next/image/?url=%2Ftotal-1.png&amp;w=64&amp;q=75 1x, /_next/image/?url=%2Ftotal-1.png&amp;w=128&amp;q=75 2x"
-                                src="/_next/image/?url=%2Ftotal-1.png&amp;w=128&amp;q=75" style="color: transparent;">
-                        </div>
-                        <div class="Jackpot_winner__vMgPd"><span class="Jackpot_type__3_TEt">gold</span><span
-                                class="Jackpot_winner__count__jnyc4">852.77 $</span></div>
-                    </li>
-                    <li>
-                        <div class="Jackpot_logo__zMpLL"><img alt="test" loading="lazy" width="64" height="64"
-                                decoding="async" data-nimg="1"
-                                srcset="/_next/image/?url=%2Ftotal-2.png&amp;w=64&amp;q=75 1x, /_next/image/?url=%2Ftotal-2.png&amp;w=128&amp;q=75 2x"
-                                src="/_next/image/?url=%2Ftotal-2.png&amp;w=128&amp;q=75" style="color: transparent;">
-                        </div>
-                        <div class="Jackpot_winner__vMgPd"><span class="Jackpot_type__3_TEt">silver</span><span
-                                class="Jackpot_winner__count__jnyc4">658.75 $</span></div>
-                    </li>
-                    <li>
-                        <div class="Jackpot_logo__zMpLL"><img alt="test" loading="lazy" width="64" height="64"
-                                decoding="async" data-nimg="1"
-                                srcset="/_next/image/?url=%2Ftotal-3.png&amp;w=64&amp;q=75 1x, /_next/image/?url=%2Ftotal-3.png&amp;w=128&amp;q=75 2x"
-                                src="/_next/image/?url=%2Ftotal-3.png&amp;w=128&amp;q=75" style="color: transparent;">
-                        </div>
-                        <div class="Jackpot_winner__vMgPd"><span class="Jackpot_type__3_TEt">bronze</span><span
-                                class="Jackpot_winner__count__jnyc4">216.99 $</span></div>
-                    </li>
-                </ul>
-            </div>
-            <div class="Section_content__r7OAb Section_content__center__E_8Hb">
-                <div class="Jackpot_end-jackpots__P7sNN">
-                    <div class=" Jackpot_jackpot__9JY9V"><span class="Jackpot_jackpot__title__rmTtx">Biggest wins</span>
-                        <ul>
-                            <li class="Jackpot_jackpot-item__sowlO">
-                                <div><img alt="UDU3lnO5jt" loading="lazy" width="40" height="40" decoding="async"
-                                        data-nimg="1"
-                                        srcset="/_next/image/?url=%2Fjackpots-wins-place-1%40X2.png&amp;w=48&amp;q=75 1x, /_next/image/?url=%2Fjackpots-wins-place-1%40X2.png&amp;w=96&amp;q=75 2x"
-                                        src="/_next/image/?url=%2Fjackpots-wins-place-1%40X2.png&amp;w=96&amp;q=75"
-                                        style="color: transparent;"></div>
-                                <div class="Jackpot_jackpot__container-middle__Bb_8b"><span
-                                        class="Jackpot_nickname__hpZhm">UDU3******</span><span
-                                        class="Jackpot_date__JzdKe">11 days ago</span></div>
-                                <div class="Jackpot_winner__count__jnyc4">3111.23 $</div>
-                            </li>
-                            <li class="Jackpot_jackpot-item__sowlO">
-                                <div><img alt="FQFS5QLUDt" loading="lazy" width="40" height="40" decoding="async"
-                                        data-nimg="1"
-                                        srcset="/_next/image/?url=%2Fjackpots-wins-place-2%40X2.png&amp;w=48&amp;q=75 1x, /_next/image/?url=%2Fjackpots-wins-place-2%40X2.png&amp;w=96&amp;q=75 2x"
-                                        src="/_next/image/?url=%2Fjackpots-wins-place-2%40X2.png&amp;w=96&amp;q=75"
-                                        style="color: transparent;"></div>
-                                <div class="Jackpot_jackpot__container-middle__Bb_8b"><span
-                                        class="Jackpot_nickname__hpZhm">FQFS******</span><span
-                                        class="Jackpot_date__JzdKe">2 hour ago</span></div>
-                                <div class="Jackpot_winner__count__jnyc4">2268.90 $</div>
-                            </li>
-                            <li class="Jackpot_jackpot-item__sowlO">
-                                <div><img alt="lEAS0zYARl" loading="lazy" width="40" height="40" decoding="async"
-                                        data-nimg="1"
-                                        srcset="/_next/image/?url=%2Fjackpots-wins-place-3%40X2.png&amp;w=48&amp;q=75 1x, /_next/image/?url=%2Fjackpots-wins-place-3%40X2.png&amp;w=96&amp;q=75 2x"
-                                        src="/_next/image/?url=%2Fjackpots-wins-place-3%40X2.png&amp;w=96&amp;q=75"
-                                        style="color: transparent;"></div>
-                                <div class="Jackpot_jackpot__container-middle__Bb_8b"><span
-                                        class="Jackpot_nickname__hpZhm">lEAS******</span><span
-                                        class="Jackpot_date__JzdKe">month ago</span></div>
-                                <div class="Jackpot_winner__count__jnyc4">1218.12 $</div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class=" Jackpot_jackpot__9JY9V"><span class="Jackpot_jackpot__title__rmTtx">Latest wins</span>
-                        <ul>
-                            <li class="Jackpot_jackpot-item__sowlO">
-                                <div><img alt="Mh4Swt637i" loading="lazy" width="40" height="40" decoding="async"
-                                        data-nimg="1"
-                                        srcset="/_next/image/?url=%2Fjackpots-wins-place-1%40X2.png&amp;w=48&amp;q=75 1x, /_next/image/?url=%2Fjackpots-wins-place-1%40X2.png&amp;w=96&amp;q=75 2x"
-                                        src="/_next/image/?url=%2Fjackpots-wins-place-1%40X2.png&amp;w=96&amp;q=75"
-                                        style="color: transparent;"></div>
-                                <div class="Jackpot_jackpot__container-middle__Bb_8b"><span
-                                        class="Jackpot_nickname__hpZhm">Mh4S******</span><span
-                                        class="Jackpot_date__JzdKe">15 hour ago</span></div>
-                                <div class="Jackpot_winner__count__jnyc4">736.40 $</div>
-                            </li>
-                            <li class="Jackpot_jackpot-item__sowlO">
-                                <div><img alt="lfIFsrxHyE" loading="lazy" width="40" height="40" decoding="async"
-                                        data-nimg="1"
-                                        srcset="/_next/image/?url=%2Fjackpots-wins-place-2%40X2.png&amp;w=48&amp;q=75 1x, /_next/image/?url=%2Fjackpots-wins-place-2%40X2.png&amp;w=96&amp;q=75 2x"
-                                        src="/_next/image/?url=%2Fjackpots-wins-place-2%40X2.png&amp;w=96&amp;q=75"
-                                        style="color: transparent;"></div>
-                                <div class="Jackpot_jackpot__container-middle__Bb_8b"><span
-                                        class="Jackpot_nickname__hpZhm">lfIF******</span><span
-                                        class="Jackpot_date__JzdKe">21 hour ago</span></div>
-                                <div class="Jackpot_winner__count__jnyc4">339.76 $</div>
-                            </li>
-                            <li class="Jackpot_jackpot-item__sowlO">
-                                <div><img alt="RTknrfWbre" loading="lazy" width="40" height="40" decoding="async"
-                                        data-nimg="1"
-                                        srcset="/_next/image/?url=%2Fjackpots-wins-place-3%40X2.png&amp;w=48&amp;q=75 1x, /_next/image/?url=%2Fjackpots-wins-place-3%40X2.png&amp;w=96&amp;q=75 2x"
-                                        src="/_next/image/?url=%2Fjackpots-wins-place-3%40X2.png&amp;w=96&amp;q=75"
-                                        style="color: transparent;"></div>
-                                <div class="Jackpot_jackpot__container-middle__Bb_8b"><span
-                                        class="Jackpot_nickname__hpZhm">RTkn******</span><span
-                                        class="Jackpot_date__JzdKe">7 days ago</span></div>
-                                <div class="Jackpot_winner__count__jnyc4">277.74 $</div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+<figure class="table" style="float: left; width: 100%;">
+    <div class="table-responsive-sm">
+        <table class="table table-sm table-striped table-bordered table-hover">
+            <colgroup>
+                <col style="width: 50%;">
+                <col style="width: 50%;">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Promotion</th>
+                    <th style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Regular Player Bonus
+                    </td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">340% bonus plus 30
+                        free spins, three times daily for deposits of at least $35.</td>
+                </tr>
+                <tr>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Daily Free Spins</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Deposit $20 once a
+                        day to receive 25 free spins.</td>
+                </tr>
+                <tr>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Daily Match Bonus
+                    </td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">A 180% match bonus is
+                        available daily for the same $20 deposit.</td>
+                </tr>
+                <tr>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Happy Hour Bonus</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">260% bonus for a $50
+                        deposit, with a lower wagering requirement of 18 times.</td>
+                </tr>
+                <tr>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Flash Sale Bonus</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">250% bonus for a $38
+                        deposit made between 11 AM and 2 AM, redeemable up to 10 times.</td>
+                </tr>
+                <tr>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Night Bonus</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">230% bonus for
+                        nightly deposits of $55 between 11:30 PM and 5 AM, unlimited usage.</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
+</figure>
 
-//css what i found but could miss anything
+//table 2
 
-.Section_card__RUXBp {
-    width: 100%;
-    border-radius: 1rem;
-    background: var(--backgroundSections);
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem;
-    margin-bottom: 24px
-}
-.Section_header__RVjJ5 {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 1.5rem 1.5rem 0
-}
+<figure class="table" style="float: left;">
+    <div class="table-responsive-sm">
+        <table class="table table-sm table-striped table-bordered table-hover">
+            <colgroup>
+                <col style="width: 14.29%;">
+                <col style="width: 14.29%;">
+                <col style="width: 14.29%;">
+                <col style="width: 14.29%;">
+                <col style="width: 14.29%;">
+                <col style="width: 14.29%;">
+                <col style="width: 14.26%;">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Advantage</th>
+                    <th style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Depositor</th>
+                    <th style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">VIP 1</th>
+                    <th style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">VIP 2</th>
+                    <th style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">VIP 3</th>
+                    <th style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">VIP 4</th>
+                    <th style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">VIP 5</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Appreciation Chip
+                    </td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                </tr>
+                <tr>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Daily Free Spins</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                </tr>
+                <tr>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Up to 30% Weekly
+                        Insurance</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                </tr>
+                <tr>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Birthday Bonus</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                </tr>
+                <tr>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Comp Points
+                        Redemption</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                </tr>
+                <tr>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Up to 30% Monthly
+                        Insurance</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">No</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                </tr>
+                <tr>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Dedicated VIP
+                        Host/Support</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">No</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">No</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">No</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                </tr>
+                <tr>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Loyalty Bonus</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">No</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">No</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">No</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                </tr>
+                <tr>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Gift Items + Delivery
+                    </td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">No</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">No</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">No</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                </tr>
+                <tr>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Priority Withdrawals
+                    </td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">No</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">No</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">No</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">No</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">No</td>
+                    <td style="border: 1pt solid rgb(0, 0, 0); padding: 5pt; vertical-align: top;">Yes</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</figure>
 
-.Section_header__RVjJ5 .Section_left__VhLzc {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    row-gap: 1rem
-}
+//same, please simplify code, do without style in scss all, use variables please to change colors easy
 
-@media screen and (max-width:570px) {
-    .Section_header__RVjJ5 .Section_left__VhLzc {
-        max-width: 50%
-    }
-}
-
-.Section_header__title__8WGk1 {
-    font-size: 2rem;
-    line-height: 125%;
-    color: var(--headingColor);
-    display: flex;
-    -moz-column-gap: 12px;
-    column-gap: 12px;
-    align-items: center
-}
-
-
-.Section_header__RVjJ5 .Section_right__waONr {
-    display: flex;
-    align-items: stretch
-}
-
-.Button_btn__R8YYU {
-    box-sizing: border-box;
-    cursor: pointer;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    border: none;
-    font-size: .875rem;
-    line-height: 170%;
-    font-weight: 700;
-    letter-spacing: .06em;
-    padding: .5rem 1rem;
-    border-radius: 2rem
-}
-
-@media screen and (max-width:570px) {
-    .Button_btn__R8YYU {
-        font-size: .75rem;
-        min-height: 40px;
-        padding: 5px 25px
-    }
-}
-
-.Button_btn__R8YYU.Button_primary__RWocB {
-    background-clip: padding-box, border-box;
-    background-color: transparent;
-    background-color: initial;
-    background-origin: padding-box, border-box;
-    background-position: 0 0, 0 0;
-    background-size: 100% 200%, 100% 100%;
-    transition: background 225ms ease-in-out
-}
-
-.Button_btn__R8YYU.Button_secondary__X4hrj {
-    color: #fff;
-    transition: background .3s ease-in-out
-}
-
-.Section_content__r7OAb {
-    padding: 0 0 1.5rem;
-    background: rgba(0, 10, 18, .2);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative
-}
-@media screen and (max-width:570px) {
-    .Section_content__r7OAb {
-        justify-content: center
-    }
-}
-
-
-.Jackpot_end-jackpots__P7sNN {
-    display: grid;
-    justify-content: center;
-    grid-column-gap: 24px;
-    -moz-column-gap: 24px;
-    column-gap: 24px;
-    padding: 1.5rem 0 0;
-    grid-template-columns: 1fr 1fr
-}
-
-@media screen and (max-width:570px) {
-    .Jackpot_end-jackpots__P7sNN {
-        grid-template-columns: none;
-        row-gap: 1rem
-    }
-}
-
-
-.Jackpot_jackpot__title__rmTtx {
-    font-size: 1.25rem;
-    line-height: 1.5rem;
-    font-weight: 700;
-    text-transform: none;
-    color: var(--primaryColor)
-}
+tables should be close to style in screenshot
 
