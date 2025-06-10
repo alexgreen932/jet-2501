@@ -1,9 +1,14 @@
+$box-bg: $ac-darken;
+$sell-bg: #000;
+$sell-bg: $bg;
+$sel-col: #fff;
+
 .bb-card {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto 2rem;
   border-radius: 1rem;
-  background: #14161c;
+  background: $box-bg;
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
@@ -45,7 +50,7 @@
 
   li {
     flex: 1;
-    background: #1d1f27;
+    background: $sell-bg;
     border-radius: 0.75rem;
     padding: 1rem;
     display: flex;
@@ -81,7 +86,7 @@
 }
 
 .bb-col {
-  background: #1d1f27;
+  background: $sell-bg;
   border-radius: 0.75rem;
   padding: 1rem;
 
@@ -119,7 +124,7 @@
         }
         .bb-time {
           font-size: 0.75rem;
-          color: #888;
+          color: $sel-col;
         }
       }
 

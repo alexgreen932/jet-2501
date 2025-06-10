@@ -33,6 +33,10 @@ body {
     }
 }
 
+.page{
+    margin-top: $header;
+}
+
 
 h1,
 h2,
@@ -48,22 +52,31 @@ label {
     box-sizing: border-box;
     color: inherit;
 }
-.section{
-  padding: 1rem 0;
-  p:last-child{
-    margin-bottom: 0;
-  }
+
+.section {
+    // padding: 1rem 0;
+
+    // p:last-child {
+    //     margin-bottom: 0;
+    // }
 }
+
 .container {
     width: 1200px;
-    padding: 35px;
+    padding: 0 35px;
     margin: 0 auto;
+}
+
+#section-1,
+#section-2,
+#section-99{
+    padding-top: 1.5rem;
 }
 
 h3 {
     font-size: 1.5rem;
     color: $heading;
-    margin-top: 0;
+    margin: 1.5rem 0;
 }
 
 
@@ -123,26 +136,29 @@ h3 {
     font-size: 12px;
     text-align: center;
 }
-button{
+
+button {
     transition: all ease 0.3s;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.1rem;
     letter-spacing: 0.5px;
 
-    &:hover{
-        background: $but-hover!important;
-        color: $but-hover-col!important;
+    &:hover {
+        background: $but-hover !important;
+        color: $but-hover-col !important;
     }
 }
 
-.g-1{
+.g-1 {
     display: flex;
     gap: 1rem;
-    .w-3-5{
+
+    .w-3-5 {
         width: 60%;
     }
-    .w-2-5{
+
+    .w-2-5 {
         width: 40%;
     }
 }

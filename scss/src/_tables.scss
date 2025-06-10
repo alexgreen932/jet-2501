@@ -1,48 +1,76 @@
-
-$table-bg: #1e1f29;
-$table-header: #2d2f3a;
-$table-border: #3e404a;
-$table-text: #ffffff;
-$table-accent: #ffd700;
-$table-hover: #2c2e38;
+// $table-bg: #1e1f29;
+$table-bg: #fff;
+// $table-header: #2d2f3a;
+$table-header: #F04D47;
+$table-border: #d3d3d3;
+// $table-text: #ffffff;
+$table-text: #444;
+// $theader-col: #ffd700;
+$theader-col: #fff;
+$table-hover: #eee;
 $table-padding: 0.75rem;
 
 .table-wrapper {
   overflow-x: auto;
   margin-bottom: 2rem;
 
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    background-color: $table-bg;
-    color: $table-text;
-    font-size: 0.875rem;
+ table {
+  width: 100%;
+  border-collapse: separate; // ← changed
+  border-spacing: 0;         // ← added
+  border-radius: 4px !important;
+  overflow: hidden;          // ← added to clip corners
+  background-color: $table-bg;
+  color: $table-text;
+  font-size: 0.875rem;
 
-    thead {
-      background-color: $table-header;
-      th {
-        padding: $table-padding;
-        text-align: left;
-        border: 1px solid $table-border;
-        font-weight: 700;
-        color: $table-accent;
-      }
-    }
+  thead {
+    background-color: $table-header;
 
-    tbody {
-      tr {
-        border-bottom: 1px solid $table-border;
-        &:hover {
-          background-color: $table-hover;
-        }
+    th {
+      padding: $table-padding;
+      text-align: left;
+      border: 1px solid $table-border;
+      font-weight: 700;
+      color: $theader-col;
+
+      &:first-child {
+        border-top-left-radius: 4px; // ← top-left corner
       }
-      td {
-        padding: $table-padding;
-        border: 1px solid $table-border;
-        vertical-align: top;
+
+      &:last-child {
+        border-top-right-radius: 4px; // ← top-right corner
       }
     }
   }
+
+  tbody {
+    tr {
+      border-bottom: 1px solid $table-border;
+
+      &:hover {
+        background-color: $table-hover;
+      }
+
+      &:last-child {
+        td:first-child {
+          border-bottom-left-radius: 4px; // ← bottom-left corner
+        }
+
+        td:last-child {
+          border-bottom-right-radius: 4px; // ← bottom-right corner
+        }
+      }
+    }
+
+    td {
+      padding: $table-padding;
+      border: 1px solid $table-border;
+      vertical-align: top;
+    }
+  }
+}
+
 }
 
 @media (max-width: 768px) {
