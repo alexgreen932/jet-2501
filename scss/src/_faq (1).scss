@@ -8,8 +8,8 @@ $faq-hover: #1e2f22;
 $color-answer: #aaa;
 
 .f-faq {
-    padding: 2rem 1rem;
-    max-width: 1200px;
+    // padding: 2rem 1rem;
+    // max-width: 1200px;
     margin: auto;
 
     .f-title {
@@ -38,23 +38,16 @@ $color-answer: #aaa;
         transition: background 0.3s ease;
 
         &:hover {
-            background: $ac-lighten-more;
-            .f-answer.open p, .f-question{
-                color: #000!important; 
-            }
-
-           
+            background: $faq-hover;
+            color: #fff;
         }
 
         .f-question {
-            //             padding-inline-start:0;
-            // display: flex!important;
-            // justify-content: start!important;
             background-color: inherit;
             // all: unset;
             border-image-width: 0;
             border-width: 0;
-            text-align: left;
+            text-align-last: left;
             display: block;
             width: 100%;
             padding: 1rem;
@@ -67,7 +60,6 @@ $color-answer: #aaa;
             position: relative;
             padding-right: 30px;
             &:hover{
-                color:#fff;
                 background: transparent!important;
             }
 
