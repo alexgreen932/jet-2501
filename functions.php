@@ -22,15 +22,15 @@ require_once get_template_directory() . '/inc/helpers.php';
 
 
 
-jet_autoloader('elements');
-jet_autoloader('classes', 'class');
-//class for customizer, without initializing 
-//  require_once get_template_directory() . '/inc/customizer/JetToggleControl.php';
+jet_autoloader( 'elements' );
+jet_autoloader( 'classes', 'class' );
+// class for customizer, without initializing
+// require_once get_template_directory() . '/inc/customizer/JetToggleControl.php';
 
 
 
-//disable admin bar for better look 
-add_filter('show_admin_bar', '__return_false');
+// disable admin bar for better look
+add_filter( 'show_admin_bar', '__return_false' );
 
 
 /**
@@ -70,17 +70,17 @@ function jet_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus(
 		array(
-			'menu-1' => esc_html__( 'Primary', 'jet' ),
-			'menu-2' => esc_html__( 'Topbar Menu', 'jet' ),
-			'menu-3' => esc_html__( 'Subheader Menu', 'jet' ),
-			'menu-4' => esc_html__( 'Sidebar Menu', 'jet' ),
-			'menu-5' => esc_html__( 'Footer Top Menu', 'jet' ),
-			'menu-6' => esc_html__( 'Footer Main Menu 1', 'jet' ),
-			'menu-7' => esc_html__( 'Footer Main Menu 2', 'jet' ),
-			'menu-8' => esc_html__( 'Footer Main Menu 3', 'jet' ),
-			'menu-9' => esc_html__( 'Footer Main Menu 4', 'jet' ),
-			'menu-10' => esc_html__( 'Footer Bottom Menu', 'jet' ),
-			//extra
+			'menu-1'    => esc_html__( 'Primary', 'jet' ),
+			'menu-2'    => esc_html__( 'Topbar Menu', 'jet' ),
+			'menu-3'    => esc_html__( 'Subheader Menu', 'jet' ),
+			'menu-4'    => esc_html__( 'Sidebar Menu', 'jet' ),
+			'menu-5'    => esc_html__( 'Footer Top Menu', 'jet' ),
+			'menu-6'    => esc_html__( 'Footer Main Menu 1', 'jet' ),
+			'menu-7'    => esc_html__( 'Footer Main Menu 2', 'jet' ),
+			'menu-8'    => esc_html__( 'Footer Main Menu 3', 'jet' ),
+			'menu-9'    => esc_html__( 'Footer Main Menu 4', 'jet' ),
+			'menu-10'   => esc_html__( 'Footer Bottom Menu', 'jet' ),
+			// extra
 			'menu-docs' => esc_html__( 'Menu Docs', 'jet' ),
 		)
 	);

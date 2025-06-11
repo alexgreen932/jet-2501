@@ -1,19 +1,19 @@
 <?php
 
-//TODO DEV ONLY START ---------------------------------------
+// TODO DEV ONLY START ---------------------------------------
 
 // function add_attr_module($tag, $handle, $src)
 // {
-// 	switch ( $handle ) {
-// 		case 'app':
-// 			$tag = str_replace('<script ', '<script type="module" ', $tag);
-// 			return $tag;
-// 			break;
+// switch ( $handle ) {
+// case 'app':
+// $tag = str_replace('<script ', '<script type="module" ', $tag);
+// return $tag;
+// break;
 
-// 		default:
-// 			return $tag;
-// 			break;
-// 	}
+// default:
+// return $tag;
+// break;
+// }
 // }
 // add_filter('script_loader_tag', 'add_attr_module', 10, 3);
 /**
@@ -23,10 +23,10 @@ function jet_scripts() {
 	wp_enqueue_style( 'jet-style', get_stylesheet_uri(), array(), _S_VERSION );
 	// wp_style_add_data( 'jet-style', 'rtl', 'replace' );
 
-	wp_enqueue_style('dashicons');
+	wp_enqueue_style( 'dashicons' );
 
 	// wp_enqueue_style( 'jet', CSS . 'jet.min.css' , array(), _S_VERSION );
-	wp_enqueue_style( 'theme', CSS . 'style.css' , array(), _S_VERSION );
+	wp_enqueue_style( 'theme', CSS . 'style.css', array(), _S_VERSION );
 	// wp_enqueue_style( 'jet-anim', CSS . 'jet-animation.min.css' , array(), _S_VERSION );
 
 	wp_enqueue_script( 'script', JS . 'script.js', array(), _S_VERSION, true );

@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../anime"
+		},
+		{
+			"path": "../wide"
+		}
+	],
+	"settings": {}
+}

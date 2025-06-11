@@ -1,15 +1,15 @@
 <?php
 class SectionMenuMetaBox {
 
-	private $post_types = [ 'doc', 'component' ];
-	private $meta_key = '_side_menu_data';
+	private $post_types = array( 'doc', 'component' );
+	private $meta_key   = '_side_menu_data';
 
 	public function __construct() {
-		add_action( 'add_meta_boxes', [ $this, 'add_meta_box' ] );
-		add_action( 'save_post', [ $this, 'save_meta_box' ] );
-		add_filter( 'rest_prepare_post', [ $this, 'add_meta_to_rest' ], 10, 2 );
-		add_filter( 'rest_prepare_doc', [ $this, 'add_meta_to_rest' ], 10, 2 );
-		add_filter( 'rest_prepare_component', [ $this, 'add_meta_to_rest' ], 10, 2 );
+		add_action( 'add_meta_boxes', array( $this, 'add_meta_box' ) );
+		add_action( 'save_post', array( $this, 'save_meta_box' ) );
+		add_filter( 'rest_prepare_post', array( $this, 'add_meta_to_rest' ), 10, 2 );
+		add_filter( 'rest_prepare_doc', array( $this, 'add_meta_to_rest' ), 10, 2 );
+		add_filter( 'rest_prepare_component', array( $this, 'add_meta_to_rest' ), 10, 2 );
 	}
 
 	// Adds the meta box for each post type
@@ -18,7 +18,7 @@ class SectionMenuMetaBox {
 			add_meta_box(
 				'side_menu_meta_box',
 				'Side Menu Sections (JS Array)',
-				[ $this, 'render_meta_box' ],
+				array( $this, 'render_meta_box' ),
 				$post_type,
 				'side',
 				'default'
@@ -44,8 +44,12 @@ class SectionMenuMetaBox {
 			return;
 		}
 
-		if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) return;
-		if ( ! current_user_can( 'edit_post', $post_id ) ) return;
+		if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
+			return;
+		}
+		if ( ! current_user_can( 'edit_post', $post_id ) ) {
+			return;
+		}
 
 		if ( isset( $_POST['side_menu_meta'] ) ) {
 			$clean = wp_kses_post( $_POST['side_menu_meta'] );
@@ -56,7 +60,7 @@ class SectionMenuMetaBox {
 	// Adds meta to REST API response
 	public function add_meta_to_rest( $response, $post ) {
 		if ( in_array( $post->post_type, $this->post_types ) ) {
-			$meta = get_post_meta( $post->ID, $this->meta_key, true );
+			$meta                                = get_post_meta( $post->ID, $this->meta_key, true );
 			$response->data['meta']['side_menu'] = $meta;
 		}
 		return $response;

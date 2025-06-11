@@ -10,3 +10,7 @@ Versions numbers are in CalVer(yy.mm.dd), yy is 25, but displayed 0:
 - 0.6.4 - Panels Sections
 - 0.6.2 - Jet(Reactive) Loading Done
 - 0.6.1 - Alpha First release
+
+<!-- //RUN COMPOSER STANDART
+composer standards:check
+composer standards:fix -->

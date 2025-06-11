@@ -12,3 +12,28 @@
         background: $ac-lighten;
     }
 }
+
+
+$ac-1: $ac-darken;
+$ac-2: $ac-lighten;
+.ac-1{
+    background: $ac-1;
+    li{
+        background: $bg!important;
+    }
+}
+.ac-2{
+    background:  $ac-2;
+}
+
+.pt-1{
+    padding-top: 1rem;
+}
+.pb-1{
+    padding-bottom: 1rem;
+}
+
+.pv-1{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
